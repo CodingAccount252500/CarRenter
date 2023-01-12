@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context="com.example.user_.bookinguser.BokkongStepOne">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="0dp"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:text="Company Name"
+                    />
+                <TextView
+                    android:id="@+id/model"
+                    android:layout_width="wrap_content"
+                    android:layout_height="28dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginLeft="3dp"
+                    android:layout_marginRight="8dp"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="0dp"
+                    android:text="Company Name"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:id="@+id/profile_image"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="3dp"
+                        android:layout_marginStart="8dp"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/person"
+                        android:layout_width="wrap_content"
+                        android:layout_height="17dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="3dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="0dp"
+                        android:text="person_name"
+                        />
+
+                    <TextView
+                        android:id="@+id/door"
+                        android:layout_width="wrap_content"
+                        android:layout_height="17dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="3dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="0dp"
+                        android:text="person_name"
+                        />
+
+                    <TextView
+                        android:id="@+id/bag"
+                        android:layout_width="wrap_content"
+                        android:layout_height="17dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="3dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="0dp"
+                        android:text="person_name"
+                        />
+                    <TextView
+                        android:id="@+id/type"
+                        android:layout_width="wrap_content"
+                        android:layout_height="17dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="3dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="0dp"
+                        android:text="person_name"
+                        />
+
+
+                    <TextView
+                        android:id="@+id/condition"
+                        android:layout_width="wrap_content"
+                        android:layout_height="17dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="3dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="0dp"
+                        android:text="person_name"
+                        />
+
+                    <TextView
+                        android:id="@+id/price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="17dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="3dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_marginTop="0dp"
+                        android:text="person_name"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/colorPrimary"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/Fdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:focusable="false"
+                android:hint="First Date"/>
+            <EditText
+                android:id="@+id/Ldate1"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:focusable="false"
+                android:layout_height="wrap_content"
+                android:hint="Last Date"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+            <EditText
+                android:id="@+id/Ftime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:focusable="false"
+                android:hint="First Time"/>
+            <EditText
+                android:id="@+id/Ltime"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:focusable="false"
+                android:layout_height="wrap_content"
+                android:hint="Last Time"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <Button
+                android:id="@+id/aboutConvers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="insurance"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/ic_arrow_drop_down_black_24dp"
+                android:textSize="20sp"
+                android:layout_gravity="left"
+                android:gravity="left|center"
+                android:background="@color/colorAccent"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <CheckBox android:id="@+id/radio_pirates"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:textSize="12sp"
+                android:textStyle="italic"
+                android:layout_margin="5dp"
+                android:text="Theft insurance 10JD"
+                android:onClick="onCheckboxClicked"/>
+            <CheckBox android:id="@+id/radio_ninjas"
+                android:layout_width="wrap_content"
+                android:visibility="gone"
+                android:textSize="12sp"
+                android:layout_margin="5dp"
+                android:textStyle="italic"
+                android:layout_height="wrap_content"
+                android:text="Risk Reduction  10JD"
+                android:onClick="onCheckboxClicked"/>
+            <CheckBox android:id="@+id/radio_ninja"
+                android:layout_width="wrap_content"
+                android:visibility="gone"
+                android:layout_margin="5dp"
+                android:textSize="12sp"
+                android:textStyle="italic"
+                android:layout_height="wrap_content"
+                android:text="Personal Accident Caverage 10JD"
+                android:onClick="onCheckboxClicked"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <Button
+                android:id="@+id/mychosenoption"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="My Chosen Options"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/ic_arrow_drop_down_black_24dp"
+                android:textSize="20sp"
+                android:layout_gravity="left"
+                android:gravity="left|center"
+                android:background="@color/colorAccent"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <CheckBox android:id="@+id/additinaldriver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:textSize="12sp"
+                android:textStyle="italic"
+                android:layout_margin="5dp"
+                android:text="Additional driver 10JD"
+                android:onClick="onCheckboxClicked"/>
+            <CheckBox android:id="@+id/youngdriver"
+                android:layout_width="wrap_content"
+                android:visibility="gone"
+                android:textSize="12sp"
+                android:layout_margin="5dp"
+                android:textStyle="italic"
+                android:layout_height="wrap_content"
+                android:text="baby car seat 10JD"
+                android:onClick="onCheckboxClicked"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:text="Basic price:"/>
+            <TextView
+                android:id="@+id/basic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:gravity="right"
+                android:textColor="@color/colorAccent"
+                android:textStyle="italic|bold"
+                android:text="0JD"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:text="Chosen options:"/>
+            <TextView
+                android:id="@+id/chhosen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:gravity="right"
+                android:textColor="@color/colorAccent"
+                android:textStyle="italic|bold"
+                android:text="0JD"/>
+        </LinearLayout>
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:weightSum="2"-->
+        <!--android:layout_margin="5dp"-->
+        <!--android:orientation="horizontal">-->
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="1.5"-->
+        <!--android:text="Protection package:"/>-->
+        <!--<TextView-->
+        <!--android:fdate="@+fdate/protection"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight=".5"-->
+        <!--android:gravity="right"-->
+        <!--android:textColor="@color/colorAccent"-->
+        <!--android:textStyle="italic|bold"-->
+        <!--android:text="00.00JD"/>-->
+        <!--</LinearLayout>-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:text="Chosen covers:"/>
+            <TextView
+                android:id="@+id/covers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:gravity="right"
+                android:textColor="@color/colorAccent"
+                android:textStyle="italic|bold"
+                android:text="0JD"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/colorPrimary"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:text="Total price:"
+                android:textColor="#000"
+                android:textSize="16dp"/>
+            <TextView
+                android:id="@+id/totalprice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:gravity="right"
+                android:textColor="@color/colorAccent"
+                android:textStyle="italic|bold"
+                android:text="0JD"/>
+        </LinearLayout>
+        <Button
+            android:id="@+id/stepone"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:background="#000"
+            android:textColor="#fff"
+            android:text="Next step"/>
+    </LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>

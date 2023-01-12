@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:layout_marginBottom="20dp"
+    >
+    <ImageView
+        android:id="@+id/profile_image"
+        android:layout_width="200dp"
+        android:layout_height="170dp"
+        android:src="@drawable/loogoo"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical"
+           android:layout_gravity="center"
+           android:gravity="center"
+           >
+           <Button
+               android:id="@+id/btnreg"
+               style="@style/Base.TextAppearance.AppCompat.Body1"
+               android:layout_width="322dp"
+               android:layout_height="40dp"
+               android:clickable="true"
+               android:text="create account"
+               android:textAllCaps="false"
+               android:background="#000"
+               android:textColor="#fff"
+               android:textSize="18sp"
+               android:layout_marginTop="5dp"/>
+
+       </LinearLayout>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:gravity="center"
+           android:layout_marginTop="15dp">
+           <TextView
+               style="@style/Base.TextAppearance.AppCompat.Body1"
+               android:id="@+id/textView5"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="already_have_account"
+
+               />
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="log_in"
+               android:textSize="14sp"
+               android:textColor="#258"
+               android:layout_marginStart="5dp"
+               style="@style/TextAppearance.AppCompat.Body2"
+               android:id="@+id/txtLogIn"
+               />
+
+
+
+
+       </LinearLayout>
+    </LinearLayout>
+
+
+

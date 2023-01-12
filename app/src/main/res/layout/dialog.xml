@@ -1,0 +1,124 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="370dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:padding="5dp"
+    android:layout_margin="10dp"
+>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_file_path1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#000"
+            android:gravity="center"
+            android:textSize="17sp"
+            android:text="3 )The lesscc agrees to return personally the vehicle to the rental agent on or by the date specified the rental agreement. return to the rental agent at the designated alone terminates the contract ."
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/txt_file_path2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#000"
+            android:gravity="center"
+            android:textSize="17sp"
+            android:text=" 4 ) The petrol is for the customer scout the lessee must make a standing check of the olla and water level he must present receipted bills in order to obtain reimbursement ."
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/txt_file_path3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#000"
+            android:gravity="center"
+            android:textSize="17sp"
+            android:text="5 ) Rental liability shall not be involved in the event of injury or property damage caused by manufacturing defect or pirior faulty repairs ."
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/txt_file_path4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#000"
+            android:gravity="center"
+            android:textSize="17sp"
+            android:text="6 ) This rental contract shall be governd by and intrepreted in arabic according to the laws of jordan in which contract is signed the courts of the department  where the corpration owning the rented vehicle is registerd shall have exclusive  jurisdiction over any dispute which may arise from the contract."
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/txt_file_path5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#000"
+            android:gravity="center"
+            android:textSize="17sp"
+            android:text="7 ) The lessee hereby approves and undertakes to observe the following (other wise ,the lessee responsible completely for any damage affects the vehicle or the others )."
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/txt_file_path6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#000"
+            android:gravity="center"
+            android:textSize="17sp"
+            android:text="^*  Retification  *^"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/txt_file_path"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="#000"
+            android:gravity="center"
+            android:text="The lessee ratify i received the vehicle started in the rental contract vacant of any defect and in good condition also he undertaken to return personally the vehicle to the rental agent."
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/cbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Accept"/>
+        <Button
+            android:id="@+id/btn_okay"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#000"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:text="Finish"
+            android:enabled="false"
+            android:textSize="13dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            />
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#000"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:text="Cancel"
+            android:textSize="13dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+
+            </ScrollView>

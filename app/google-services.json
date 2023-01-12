@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "995413597497",
+    "firebase_url": "https://bookingusercopy-default-rtdb.firebaseio.com/",
+    "project_id": "bookingusercopy",
+    "storage_bucket": "bookingusercopy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995413597497:android:457657ec15155458949ce8",
+        "android_client_info": {
+          "package_name": "com.example.user_.bookinguser"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "995413597497-bo0rdq14oqvmp6stjlotve5orpd22heu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7cAOGRobcnnc_gnAI9X1rUfzkAe1C0Iw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "995413597497-bo0rdq14oqvmp6stjlotve5orpd22heu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
