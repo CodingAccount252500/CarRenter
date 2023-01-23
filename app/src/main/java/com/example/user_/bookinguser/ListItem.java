@@ -1,8 +1,8 @@
 package com.example.user_.bookinguser;
 
 class ListItem  {
-     String id;
-     String name;
+    String id;
+    String name;
     String model;
     String price;
     String numperson;

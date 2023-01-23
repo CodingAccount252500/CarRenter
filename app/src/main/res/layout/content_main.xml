@@ -9,7 +9,7 @@
         android:textSize="20sp"
         android:textStyle="bold"
         android:padding="5dp"
-        android:text="INFINITY RENT A CAR"
+        android:text="CAR Rental"
         />
     <TabHost
         android:layout_marginTop="50dp"
